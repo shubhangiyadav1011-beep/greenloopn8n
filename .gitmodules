@@ -1,0 +1,4 @@
+﻿# Historical outer-repository submodule configuration retained for migration trace.
+# The former application submodule was promoted to the repository root.
+# Original configuration is preserved in docs/audits/outer-gitmodules-original.txt.
+# The former URL and Git history are preserved in the recovery snapshot.

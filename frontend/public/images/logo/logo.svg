@@ -1,0 +1,9 @@
+<svg width="150" height="32" viewBox="0 0 150 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GreenLoop">
+  <!-- Loop mark -->
+  <rect x="0.5" y="0.5" width="31" height="31" rx="3.5" fill="#141613"/>
+  <path d="M22.5 9.5a9 9 0 1 0 2.6 6.4" stroke="#2E7D5B" stroke-width="2.4" fill="none" stroke-linecap="square"/>
+  <path d="M25.6 10.8l.3 5.4-5.2-1.7z" fill="#2E7D5B"/>
+  <circle cx="16" cy="16" r="2.1" fill="#F4F2ED"/>
+  <!-- Wordmark -->
+  <text x="42" y="22" font-family="Archivo, Inter, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.4" fill="#141613">GREEN<tspan fill="#2E7D5B">LOOP</tspan></text>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "name": "greenloop",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": ["frontend", "backend"],
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env scripts/dev.mjs",
+    "predev:frontend": "node scripts/import-public-site.mjs",
+    "dev:frontend": "npm run dev --workspace @greenloop/frontend",
+    "dev:backend": "npm run dev --workspace @greenloop/backend",
+    "import:public-site": "node scripts/import-public-site.mjs",
+    "prebuild": "npm run import:public-site",
+    "build": "npm run build --workspace @greenloop/frontend",
+    "lint": "npm run lint --workspace @greenloop/frontend",
+    "check:backend": "npm run check --workspace @greenloop/backend",
+    "admin:bootstrap": "npm run admin:bootstrap --workspace @greenloop/backend --",
+    "test:backend": "npm run test --workspace @greenloop/backend",
+    "audit:http": "node scripts/audit-http.mjs",
+    "start": "npm run start --workspace @greenloop/backend",
+    "db:migrate": "npm run db:migrate --workspace @greenloop/backend",
+    "db:import": "npm run db:import --workspace @greenloop/backend --",
+    "test:postgres": "npm run test:postgres --workspace @greenloop/backend"
+  },
+  "overrides": {
+    "react-helmet-async": {
+      "react": "^16.8.0 || ^17 || ^18 || ^19"
+    }
+  }
+}

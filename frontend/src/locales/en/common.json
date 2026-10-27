@@ -1,0 +1,363 @@
+{
+  "onboarding": {
+    "metaTitle": "Set up your workspace | GreenLoop",
+    "metaDescription": "Choose your role and add your organization details.",
+    "restoring": "Restoring your session…",
+    "backToSite": "Back to GreenLoop",
+    "setup": "Set up your workspace",
+    "roleTitle": "Choose your role",
+    "roleDescription": "Tell GreenLoop how you will use the recovery network.",
+    "organizationTitle": "Organization details",
+    "organizationDescription": "Optional — prefills your profile.",
+    "organizationName": "Organization Name",
+    "organizationPlaceholder": "e.g. Riverstone Aggregates",
+    "location": "Location / Region",
+    "locationPlaceholder": "e.g. London, UK",
+    "vat": "VAT / Company Number",
+    "optional": "Optional",
+    "back": "Back",
+    "finish": "Finish Setup",
+    "saving": "Saving…",
+    "roles": {
+      "provider": {
+        "title": "Material provider",
+        "description": "I have materials to recover."
+      },
+      "receiver": {
+        "title": "Material receiver",
+        "description": "I need materials for my facility."
+      },
+      "both": {
+        "title": "Both",
+        "description": "I supply and receive materials."
+      }
+    }
+  },
+  "auctions": {"tab":"Auctions","error":"Could not load or update auctions.","currentBid":"Current highest bid","awardDeadline":"Complete Final Terms by {{time}}","ends":"Ends {{time}}","provider":"Provider","detailTitle":"Auction details","highest":"Highest bid","nextBid":"Minimum next bid","reserve":"Reserve price","notSet":"No reserve","met":"Reserve met","notMet":"Reserve not met","bidAmount":"Your bid amount (INR)","placing":"Placing bid…","placeBid":"Place bid","youWon":"You are the provisional winner.","winnerNext":"The provisional winner is completing Final Terms.","completeWithin":"Both sides must complete Final Terms within 24 hours. The booking is not confirmed until both approve and capacity is checked.","continueTerms":"Continue to Final Terms","bidHistory":"Bid history","you":"you","noBids":"No bids yet.","noProviderAuctions":"You have no auctions yet.","noAuctions":"No open or recent auctions.","management":"Auction management","managementDescription":"Create and manage auctions for available material. Bids lock auction terms.","providerWorkspace":"Provider workspace","create":"Create auction","materials":"Materials","edit":"Edit auction","material":"Material passport","chooseMaterial":"Choose a material","quantity":"Auction quantity (tonnes)","startsAt":"Start time","endsAt":"End time","increment":"Minimum bid / increment (INR)","reserveOptional":"Reserve price (optional, INR)","saving":"Saving…","save":"Save auction","close":"Close","cancel":"Cancel auction","details":"Bid details","viewNegotiation":"View negotiation","negotiationContext":"Auction award · winning bid {{price}} is the starting price for Final Terms. It does not approve terms or create a booking.","pricePending":"winning bid","viewAuction":"View auction","adminTitle":"Auction inspection","adminReadOnly":"Read-only auction records. Bids and outcomes cannot be changed by admins.","adminProvider":"Provider","adminWinner":"Winner","adminNone":"—","adminPeriod":"Auction period","adminNegotiation":"Negotiation","adminBooking":"Booking","adminAward":"Award","adminEmpty":"No auction records."},
+  "monetization": {"planBilling":"Plan & Billing","premiumPlan":"Premium plan","freePlan":"Free plan","activeThrough":"Active through {{date}}","freeAvailable":"Free features remain available.","premiumBadge":"Premium marketplace badge and enhanced listing visibility","advancedAnalytics":"Advanced operational analytics","impactReports":"Impact and ESG reports","monthlyPlan":"Mock subscription: ₹999 for one month, no auto-renewal","latestPayment":"Latest payment","sandboxPending":"Sandbox payment pending · {{amount}}","verifiedServer":"Status updates after server-side mock verification. This is not a real payment.","startingPayment":"Starting payment…","upgrade":"Upgrade to Premium · ₹999","renew":"Renew Premium","loading":"Loading premium status…","startError":"Could not start Premium payment.","sponsorActive":"Sponsored through active campaign.","sponsorListing":"Sponsor listing","days7":"7 days · ₹199","days14":"14 days · ₹398","days30":"30 days · ₹852.86","promote":"Promote listing","starting":"Starting…","feeStatus":"Fee status","sandboxOnly":"Sandbox only. Activation follows server verification.","sponsorshipError":"Could not start sponsorship.","premiumImpact":"Premium · Impact & ESG","verifiedRecovery":"Verified material recovery","verifiedData":"Verified operational data","surveyedMaterial":"Surveyed material","acceptedRecovery":"Verified accepted recovery","verifiedLoads":"Verified loads","acceptedShare":"accepted","downloadReport":"Download impact report (CSV)","advancedAvailable":"Advanced impact reporting is available with Premium. Basic analytics remain available.","viewPlan":"View plan","loadingReport":"Loading premium report…","verifiedTonnes":"Reported tonnes come from verified deliveries. GreenLoop does not infer emissions savings or certification claims.","adminTitle":"Monetization","adminDescription":"Demo entitlements and payment attempt inspection.","readOnly":"Read-only view. Entitlement management is available to Super Admins.","findAccount":"Find account","searchAccount":"Search email or name","account":"Account","chooseAccount":"Choose user","action":"Action","grant":"Grant","extend":"Extend from current expiry","revoke":"Revoke","durationDays":"Duration (days)","orSetExpiry":"Or set expiry date","reason":"Reason","saving":"Saving…","applyEntitlement":"Apply Premium entitlement","entitlements":"Entitlements","user":"User","source":"Source","status":"Status","expires":"Expires","recentAttempts":"Recent payment attempts","payer":"Payer","product":"Product","target":"Target","amount":"Amount","providerReference":"Provider reference","metric":"Metric","value":"Value","reportError":"Could not load advanced impact data.","participationFee":"One-time participation fee · ₹49","participationExplain":"Join this auction once, then bid any number of times.","joinAuction":"Join auction · ₹49","retryJoin":"Retry join payment","auctionStatus":{"scheduled":"Scheduled","open":"Open","closed":"Closed","awarded":"Awarded","award_expired":"Award expired","no_sale":"No sale","completed":"Completed","cancelled":"Cancelled","paid":"Paid","pending":"Pending","failed":"Failed","refunded":"Refunded"},"productTypes":{"premium_subscription":"Premium subscription","sponsored_listing":"Sponsored listing","auction_hosting":"Auction hosting","auction_participation":"Auction participation"},"sourceTypes":{"purchase":"Purchase","admin_grant":"Admin grant"},"paymentStatus":{"refund_pending":"Refund pending","refunded":"Refunded","active":"Active","revoked":"Revoked"},"auctionHostingFee":"Auction hosting fee · ₹199","auctionUnpublished":"The auction is unpublished until the server verifies payment.","paymentPending":"Payment pending…","retryHosting":"Retry hosting payment","notPublished":"Auction is unpublished until ₹199 hosting fee is verified."},
+  "recordCrud": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save changes",
+    "cancel": "Cancel",
+    "saving": "Saving…",
+    "saved": "Changes saved.",
+    "failed": "Could not save. Check the message below and try again.",
+    "confirmDelete": "Delete this record? Any offers linked to it will also be removed. Existing receiving plans will remain.",
+    "material": "Material",
+    "quantity": "Quantity (tonnes)",
+    "availableFrom": "Available from",
+    "neededBy": "Needed by",
+    "price": "Price / tonne (optional)",
+    "budget": "Budget / tonne (optional)",
+    "condition": "Condition",
+    "grade": "Grade",
+    "location": "Delivery location",
+    "notes": "Notes",
+    "good": "Good",
+    "fair": "Fair",
+    "poor": "Poor",
+    "passportLinked": "This passport is linked to orders. Its details and delivery history are preserved; create a new passport for additional material.",
+    "requestLinked": "This request has orders and cannot be deleted. You can edit the quantity and deadline without reducing existing commitments.",
+    "typeLocked": "Material details are locked while offers or orders are linked."
+  },
+  "offerChecks": {
+    "requirement": "Requested: {total} tonnes · Already ordered: {booked} · Still needed: {remaining}",
+    "dateReady": "Receiving date ready: {date} — space for {quantity} tonnes.",
+    "blocked": "Why Accept is disabled",
+    "closed": "This request is no longer open for new orders.",
+    "quantity": "This offer is {offered} tonnes, but you only need {remaining} tonnes more.",
+    "quantityAction": "Ask the provider for a new offer of {remaining} tonnes or less. Adding receiving dates will not increase the quantity you requested.",
+    "fulfilled": "Your full requested quantity is already in orders. You can decline this extra offer.",
+    "stock": "The provider has only {quantity} tonnes left. A smaller offer is needed.",
+    "automaticDate": "When you accept, we use the earliest saved date with enough space before your deadline. The date is shown on each offer below."
+  },
+  "receivingPlan": {
+    "title": "Your receiving plan",
+    "intro": "Choose when you can receive {material}, on or before {deadline}.",
+    "date": "When can you receive it?",
+    "tonnes": "Tonnes you can receive",
+    "save": "Save receiving plan",
+    "saving": "Saving…",
+    "hint": "Suggested amount: {quantity} tonnes. Each offer needs enough space on one date.",
+    "saved": "Receiving plan saved.",
+    "invalid": "Choose a date from today up to the request deadline, and enter a positive amount.",
+    "failed": "Could not save. Please try again.",
+    "expired": "This request’s deadline has passed. You need a new request with a future date.",
+    "available": "{quantity} tonnes available",
+    "reserved": "{quantity} tonnes already booked",
+    "empty": "No receiving date saved for this request yet.",
+    "otherDates": "Other saved dates — unavailable for this request",
+    "past": "Date has passed",
+    "tooLate": "After the request deadline",
+    "edit": "Change",
+    "needDate": "Save a receiving date above before accepting this offer.",
+    "needSpace": "You need {quantity} tonnes available on one date to accept this offer."
+  },
+  "orderPayment": {
+    "title": "Payment & payout",
+    "waiting": "Payment is available after booking confirmation. Dispatch does not require payment confirmation.",
+    "reference": "Provider reference",
+    "acceptedValue": "Accepted material value",
+    "commission": "GreenLoop commission",
+    "providerFee": "Payment provider fee",
+    "refund": "Adjustment / refund",
+    "payout": "Provider payout",
+    "sandbox": "Sandbox payment QR payload",
+    "sandboxNote": "Mock sandbox only. No funds move; payment status is simulated and verified server-side.",
+    "pay": "Create payment QR",
+    "retry": "Retry payment",
+    "starting": "Creating payment…",
+    "failedNote": "The mock provider reported that this payment failed. You can retry.",
+    "disputeLabel": "Delivery dispute reason",
+    "dispute": "Dispute delivery and hold payout",
+    "disputedNote": "Payout is held while this delivery is disputed. Contact support to resolve it.",
+    "status": { "required": "Payment required", "pending": "Payment pending", "failed": "Payment failed", "held": "Paid — payout held", "dispatched": "Dispatched", "verified": "Verified", "payoutPending": "Payout pending", "settled": "Settled", "disputed": "Disputed" },
+    "refundStatus": { "not_required": "Not required", "pending": "Pending", "refunded": "Refunded", "failed": "Failed" },
+    "payoutStatus": { "held": "Held", "pending": "Pending", "settled": "Settled", "failed": "Failed", "disputed": "Disputed", "not_eligible": "Not eligible" }
+  },
+  "orderTracking": {
+    "title": "Delivery status",
+    "booked": "Booked",
+    "pendingPickup": "Pending Pickup",
+    "picked": "Picked Up",
+    "inTransit": "In Transit",
+    "destination": "Reached Destination",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled",
+    "awaitingAcceptance": "Awaiting receiver acceptance",
+    "loadRef": "Load reference",
+    "notRecorded": "Not recorded",
+    "waiting": "Waiting for an update",
+    "explanation": "Progress updates when the provider records a delivery stage or the receiver records arrival. Updates are shared with both parties.",
+    "recordArrival": "Record arrival",
+    "verificationPending": "Delivered. Verification is pending.",
+    "verificationRejected": "Delivered. The receiver rejected the load.",
+    "verificationComplete": "Delivered and verified.",
+    "history": "Shipment history",
+    "hide": "Hide tracking",
+    "track": "Track order",
+    "action": {
+      "ready": "Mark ready for pickup",
+      "picked-up": "Mark picked up",
+      "arrived": "Mark reached destination",
+      "dispatch": "Dispatch load"
+    }
+  },
+  "receiverDelivery": {
+    "arrivalRecorded": "Arrival recorded. Check the ticket and confirm the accepted quantity below.",
+    "viewTicket": "View weighbridge ticket",
+    "savedProof": "Saved delivery proof"
+  },
+  "providerDirectory": {
+    "searchLabel": "Search materials",
+    "searchPlaceholder": "Search materials, e.g. concrete or steel",
+    "resultCount": "Showing {{shown}} of {{total}} records",
+    "location": "Location",
+    "locationPlaceholder": "Enter a city or region",
+    "minAvailableQuantity": "Min. available quantity (t)",
+    "maxAvailableQuantity": "Max. available quantity (t)",
+    "minPrice": "Minimum price / tonne",
+    "maxPrice": "Maximum price / tonne",
+    "availableBy": "Available by",
+    "condition": "Condition",
+    "anyCondition": "Any condition",
+    "invalidQuantityRange": "Minimum available quantity must not exceed maximum available quantity.",
+    "negativeQuantity": "Available quantity cannot be negative.",
+    "invalidPriceRange": "Minimum price must not exceed maximum price.",
+    "negativePrice": "Price cannot be negative."
+  },
+  "admin": {
+    "internal": "Admin Console", "navigation": "Admin navigation", "signOut": "Sign out", "search": "Search", "saving": "Saving…", "loading": "Loading…", "error": "The request could not be completed.", "previous": "Previous", "next": "Next", "page": "Page {{page}}",
+    "roles": { "super_admin": "Super Admin", "support_admin": "Support Admin", "operations_admin": "Operations Admin" },
+    "nav": { "overview": "Overview", "users": "Users", "support": "Support", "orders": "Orders", "health": "System health" },
+    "overview": { "title": "Operations overview", "description": "Staff tools for account access, customer support, order inspection, and service health.", "summary": "Operational summary", "users": "Accounts", "openTickets": "Open support tickets", "activeOrders": "Active orders", "disputes": "Payment disputes", "userDescription": "Review accounts, access status, and staff roles.", "supportDescription": "Triage requests and keep internal notes private.", "orderDescription": "Inspect approved terms and read-only transaction status.", "healthDescription": "Check API, database, payments, and recent incidents." },
+    "users": { "title": "User management", "description": "Suspend or reactivate access and manage staff roles. Transaction history is retained.", "search": "Search name, organization, or email", "empty": "No matching accounts.", "account": "Account", "statusLabel": "Access", "systemRole": "Staff role", "noStaffRole": "No staff role", "noWorkspace": "No workspace", "reason": "Reason (required)", "suspend": "Suspend account", "reactivate": "Reactivate account", "saveRole": "Save staff role", "noDelete": "Accounts cannot be permanently deleted from this console.", "status": { "active": "Active", "suspended": "Suspended" } },
+    "support": { "title": "Support queue", "description": "Update status, assign tickets, and add private internal notes. No email or chat is sent.", "empty": "No support tickets.", "account": "Account", "relatedOrders": "Related orders", "statusLabel": "Ticket status", "assignee": "Assigned to", "unassigned": "Unassigned", "reason": "Reason for update (required)", "internalNote": "Internal note (private)", "privateNotes": "Private admin notes", "noNotes": "No internal notes yet.", "save": "Save ticket update", "status": { "open": "Open", "in_review": "In Review", "waiting": "Waiting", "resolved": "Resolved" } },
+    "orders": { "title": "Order inspection", "description": "Inspect orders, approved terms, dispatch, verification, and payment states. Read-only.", "search": "Booking, load reference, material, or participant", "empty": "No matching orders.", "notDispatched": "Not dispatched", "noLoadReference": "No load reference", "noPayment": "No payment attempt", "noNegotiation": "No approved negotiation version linked.", "priceUnavailable": "Price unavailable", "order": "Order", "provider": "Provider", "receiver": "Receiver", "quantityPrice": "Quantity and agreed price", "dispatchDelivery": "Dispatch and delivery", "dispatched": "Dispatched", "awaitingVerification": "Awaiting verification", "agreement": "Approved agreement", "version": "Version {{version}}", "versionHistory": "{{count}} proposal versions", "deliveryVerification": "Delivery verification", "notVerified": "Not verified", "payment": "Payment state", "refundPayout": "Refund / payout", "disputed": "Disputed", "dispatchHistory": "Dispatch history", "readOnly": "Inspection only: admins cannot change terms, verification, payment, refunds, or payouts." },
+    "health": { "title": "System health", "description": "Compact readiness checks and redacted incidents. No stack traces or credentials are shown.", "checks": "Service readiness", "api": "API", "database": "Database", "payments": "Payment service", "incidents": "Recent incidents", "incidentNote": "Only request ID, route, and status are retained; sensitive details are excluded.", "noIncidents": "No recent server incidents.", "when": "When", "request": "Request ID", "route": "Route", "code": "Status", "audit": "Admin audit log", "auditNote": "Append-only record of privileged changes and sensitive inspections.", "before": "Before", "after": "After" }
+  },
+  "supportTicket": { "statusLabel": "Request status", "updated": "Updated", "resolved": "Resolved", "status": { "open": "Open", "in_review": "In Review", "waiting": "Waiting", "resolved": "Resolved" } },
+  "common": {
+    "home": "Home",
+    "edit": "Edit",
+    "close": "Close",
+    "saveChanges": "Save Changes",
+    "viewMore": "View More",
+    "delete": "Delete",
+    "filter": "Filter",
+    "seeAll": "See all"
+  },
+  "site": {
+    "theme": {
+      "switchToLight": "Switch to light mode",
+      "switchToDark": "Switch to dark mode"
+    }
+  },
+  "sidebar": {
+    "groups": {
+      "menu": "Operations",
+      "support": "Admin",
+      "others": "Reference",
+      "tools": "Tools"
+    },
+    "badges": {
+      "new": "new",
+      "pro": "pro"
+    },
+    "items": {
+      "explore": "Home",
+      "assistant": "AI Copilot",
+      "dashboard": "Dashboard",
+      "projects": "Projects",
+      "materials": "Inventory",
+      "marketDemand": "Requests",
+      "receiverInventory": "Inventory",
+      "receiverDemand": "Requests",
+      "providers": "Providers",
+      "incomingRequests": "Incoming Requests",
+      "allocations": "Match Details",
+      "bookings": "Bookings",
+      "bookings-deliveries": "My Orders",
+      "verification": "Verification",
+      "dispatchPlaceholder": "Dispatch",
+      "deliveries": "Deliveries",
+      "publicSite": "Website",
+      "forms": "Forms",
+      "formElements": "Form Elements",
+      "tables": "Tables",
+      "basicTables": "Basic Tables",
+      "authentication": "Authentication",
+      "signIn": "Sign In",
+      "signUp": "Sign Up",
+      "calendar": "Calendar",
+      "userProfile": "User Profile",
+      "profile": "Profile"
+    },
+    "workspace": {
+      "provider": "Provider",
+      "receiver": "Receiver",
+      "switchToProvider": "Switch to Provider workspace",
+      "switchToReceiver": "Switch to Receiver workspace"
+    },
+    "widget": {
+      "title": "Demo dataset",
+      "description": "Figures come from the seeded GreenLoop scenario — no live feeds.",
+      "purchasePlan": "Reset demo"
+    }
+  },
+  "header": {
+    "searchPlaceholder": "Search projects, passports, loads...",
+    "toggleSidebar": "Toggle Sidebar",
+    "notifications": {
+      "title": "Activity",
+      "viewAll": "View full audit trail"
+    }
+  },
+  "userDropdown": {
+    "editProfile": "Edit profile",
+    "accountSettings": "Account settings",
+    "support": "Support",
+    "language": "Language",
+    "signOut": "Sign out"
+  },
+  "notFound": {
+    "error": "ERROR",
+    "message": "We can’t seem to find the page you are looking for. Head back to the GreenLoop platform or the public site.",
+    "goPlatform": "Go to Platform",
+    "backHome": "Back to Operations"
+  },
+  "backend": {
+    "passwordMismatch": "Use at least 8 characters and matching passwords.",
+    "requestFailed": "The request failed. Please try again.",
+    "passwordRecovery": "Password recovery",
+    "passwordChanged": "Your password has been changed. Sign in with your new password.",
+    "resetSent": "If that account exists, a password reset link has been sent.",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm password",
+    "savePassword": "Save password",
+    "sendReset": "Send reset link",
+    "backToSignIn": "Back to sign in",
+    "retryConnection": "Retry connection",
+    "refresh": "Refresh",
+    "savingChanges": "Saving changes…",
+    "loadingWorkspace": "Loading your workspace…",
+    "restoreSession": "Restoring your session…",
+    "profileFailed": "Could not update your profile.",
+    "signoutFailed": "Could not sign out.",
+    "workspaceFailed": "Could not load workspace.",
+    "saveFailed": "Could not save changes.",
+    "signInFailed": "Could not sign in.",
+    "signupFailed": "Could not create your account.",
+    "accountDetailsRequired": "Complete your name, organization, and email.",
+    "passwordLength": "Use a password of at least 8 characters.",
+    "googleUnavailable": "Google sign-in is not configured",
+    "uploadFailed": "Could not upload evidence.",
+    "readFileFailed": "Could not read this file.",
+    "setupDescription": "Your workspace starts empty. Add your company details, then create projects, material requests, or receiving capacity.",
+    "requestPublished": "Request published. Providers can now view it.",
+    "providerCanView": "The provider can now view the result.",
+    "serverUnavailable": "The server is unavailable. Please try again.",
+    "uploadLimits": "Photos and survey evidence (up to 4 MB per file)",
+    "uploadingEvidence": "Uploading evidence…"
+  },
+  "verificationCards": {
+    "details": "Details",
+    "complete": "Order complete · {{quantity}} tonnes accepted",
+    "rejected": "Order complete · load rejected",
+    "pending": "Delivered · verification pending",
+    "awaiting": "Awaiting arrival · record delivery when it arrives"
+  },
+  "workspacePicker": {
+    "metaTitle": "Select Workspace | GreenLoop",
+    "title": "Choose your workspace",
+    "subtitle": "Select how you want to interact with GreenLoop today.",
+    "hint": "One card. Two ways to work. Swipe to switch, click to enter.",
+    "flip": "Flip to the other workspace",
+    "keyboardHint": "Swipe or use the arrows to flip · Enter or click to select",
+    "entering": "Entering…",
+    "failed": "Could not select this workspace. Please try again.",
+    "provider": {
+      "short": "Provider",
+      "title": "Provider Workspace",
+      "description": "Offer recovered materials, manage material passports, and track outbound deliveries from your projects.",
+      "enter": "Enter Provider Workspace"
+    },
+    "receiver": {
+      "short": "Receiver",
+      "title": "Receiver Workspace",
+      "description": "Request materials, manage receiving capacity, and verify incoming loads at your facility.",
+      "enter": "Enter Receiver Workspace"
+    }
+  },
+  "directRequest": {
+    "open": "Request Material",
+    "title": "Request from {{provider}}",
+    "linked": "{{material}} · Passport {{reference}} · {{quantity}} tonnes available",
+    "quantity": "Quantity (tonnes)",
+    "date": "Needed by",
+    "location": "Receiving location",
+    "notes": "Notes (optional)",
+    "flow": "This request goes directly to the selected provider. They can respond with an offer for this material.",
+    "cancel": "Cancel",
+    "send": "Send to provider",
+    "sending": "Sending…",
+    "failed": "Could not send your request. Please try again.",
+    "invalid": "Choose an available quantity, a valid date, and your receiving location.",
+    "recipient": "Sent to {{provider}} · Passport {{reference}}"
+  },
+  "negotiation": {"title":"Negotiation","subtitle":"Discuss a provider offer and approve its final transaction terms.","unavailable":"This negotiation is unavailable.","back":"Back to offers","offerSummary":"Offer summary","receiver":"Destination","neededBy":"Requested by","chatNotice":"Chat messages are for discussion only. They never change the agreed transaction values; only a versioned Final Terms proposal approved by both parties can do that.","chat":"Chat","noMessages":"No messages yet. Start the discussion.","messagePlaceholder":"Write a message about price, quantity, or timing…","send":"Send","finalTerms":"Final Terms","version":"Version","noTerms":"No Final Terms proposal yet.","proposedBy":"Proposed by {{role}}","quantity":"Quantity","price":"Price per tonne","total":"Total","destination":"Destination","receivingSlot":"Receiving date / slot","approved":"Approved","awaiting":"Awaiting","approve":"Approve Final Terms","proposeChange":"Propose or change terms","chooseSlot":"Choose a receiving slot","submitTerms":"Submit new version","history":"Version history and audit trail","proposalSent":"Final Terms proposal submitted. The other party must approve this version.","confirmed":"Both parties approved. Capacity was checked and the booking is confirmed.","approvalSaved":"Your approval is recorded. The other party must approve the same version.","status":{"negotiating":"Negotiating","awaiting_provider_approval":"Awaiting Provider Approval","awaiting_receiver_approval":"Awaiting Receiver Approval","approved":"Approved · checking availability","confirmed":"Confirmed","declined":"Declined","withdrawn":"Withdrawn","superseded":"Superseded"},"roles":{"provider":"Provider","receiver":"Receiver"}},
+  "negotiationOpen": "Open negotiation and final terms",
+  "negotiationReview": "Negotiate and review terms",
+  "projectLocationForm": {
+    "name": "Project name",
+    "location": "Project location",
+    "placeholder": "Enter city, street or site address",
+    "hint": "Type the location here. Address suggestions and a map pin are optional.",
+    "required": "Enter a project name and location.",
+    "failed": "Could not create the project. Please try again.",
+    "create": "Create project",
+    "creating": "Creating project…"
+  },
+  "acceptedOrders": {"awaitingSchedule":"Awaiting schedule","receiverHint":"Offer accepted. Choose receiving capacity to confirm the booking.","providerHint":"Offer accepted. The receiver is arranging a receiving slot.","chooseSlot":"Receiving slot","schedule":"Confirm booking","receivingPlan":"Set receiving plan","failed":"Could not confirm the booking. Check current capacity and try again."}
+}

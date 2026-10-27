@@ -1,0 +1,37 @@
+{
+  "base": "http://localhost:5174",
+  "sourceFilesInspected": 177,
+  "moduleFailures": [],
+  "missingAssets": [],
+  "responses": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/app/projects",
+      "status": 200
+    },
+    {
+      "path": "/app/materials?project=P-001",
+      "status": 200
+    },
+    {
+      "path": "/api/health",
+      "status": 200
+    },
+    {
+      "path": "/api/config",
+      "status": 200
+    },
+    {
+      "path": "/api/auth/me",
+      "status": 200
+    },
+    {
+      "path": "/api/dataset",
+      "status": 401
+    }
+  ],
+  "limitation": "HTTP serving/module transforms only; no browser rendering or UI interaction."
+}

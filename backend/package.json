@@ -1,0 +1,28 @@
+{
+  "name": "@greenloop/backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=../.env --watch src/server.mjs",
+    "start": "node --env-file-if-exists=../.env src/server.mjs",
+    "test": "node --test tests/backend.test.mjs tests/audit.test.mjs tests/crud.test.mjs tests/qa-regressions.test.mjs tests/facility-research.test.mjs tests/facility-public-research.test.mjs tests/accepted-orders.test.mjs tests/evidence-and-capacity-regressions.test.mjs tests/phase4-negotiation-orders.test.mjs tests/phase5-delivery-availability.test.mjs tests/phase6-landed-cost.test.mjs tests/phase7-fullstack-e2e.test.mjs tests/demo-payment-settlement.test.mjs tests/smart-procurement-matching.test.mjs tests/provider-inventory-recovery.test.mjs tests/unified-order-delivery.test.mjs tests/material-passport-verification.test.mjs tests/procurement-assistant.test.mjs tests/phase4-verification-trust.test.mjs tests/phase5-provider-operations.test.mjs tests/phase6-end-to-end-integration.test.mjs tests/phase9-commerce-and-logic-fixes.test.mjs",
+    "check": "tsc -p tsconfig.json",
+    "admin:bootstrap": "node scripts/bootstrap-admin.mjs",
+    "db:migrate": "node --env-file-if-exists=../.env scripts/migrate-postgres.mjs",
+    "db:import": "node --env-file-if-exists=../.env scripts/migrate-sqlite.mjs",
+    "test:postgres": "node scripts/test-postgres.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@types/node": "^26.4.1",
+    "typescript": "^5.8"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "pg": "^8.23.1"
+  }
+}

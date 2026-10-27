@@ -1,0 +1,21 @@
+{
+  "name": "greenloop-scroll",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GreenLoop 13-chapter cinematic material recovery journey",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "watch:css": "tailwindcss -i ./src/style-entry.css -o ./dist/styles.css --watch",
+    "preview": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0",
+    "esbuild": "^0.25.0"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  }
+}

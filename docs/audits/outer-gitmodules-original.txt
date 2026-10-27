@@ -1,0 +1,3 @@
+[submodule "ui/free-react-tailwind-admin-dashboard"]
+	path = ui/free-react-tailwind-admin-dashboard
+	url = https://github.com/somyagupta1122/greenloop.git

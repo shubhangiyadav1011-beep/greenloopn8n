@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <filter id="paper-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background / Paper -->
+  <rect x="20" y="15" width="560" height="420" rx="8" fill="#fcfcf9" stroke="#d5d5ce" stroke-width="1.5" filter="url(#paper-shadow)"/>
+
+  <!-- Subtle paper texture lines / header band -->
+  <rect x="20" y="15" width="560" height="55" rx="8" fill="#f4f4ee" stroke="#d5d5ce" stroke-width="1"/>
+  
+  <!-- Header Text -->
+  <text x="40" y="42" font-family="monospace, Courier, sans-serif" font-size="14" font-weight="bold" fill="#1b3a24" letter-spacing="1">GREENLOOP CERTIFIED WEIGHBRIDGE</text>
+  <text x="40" y="58" font-family="monospace, Courier, sans-serif" font-size="11" fill="#556658">INTAKE TERMINAL GATE #01 · CALIBRATED WEIGHT CERTIFICATE</text>
+  
+  <text x="560" y="42" text-anchor="end" font-family="monospace, Courier, sans-serif" font-size="13" font-weight="bold" fill="#111">TICKET: WB-2026-1002</text>
+  <text x="560" y="58" text-anchor="end" font-family="monospace, Courier, sans-serif" font-size="10" fill="#666">DATE: 26 OCT 2026 · 10:08:42 IST</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="80" x2="560" y2="80" stroke="#bbb" stroke-width="1" stroke-dasharray="4 2"/>
+
+  <!-- Transaction Details Grid -->
+  <text x="40" y="105" font-family="monospace, Courier, sans-serif" font-size="10" fill="#777">CONSIGNOR / PROVIDER:</text>
+  <text x="40" y="122" font-family="monospace, Courier, sans-serif" font-size="12" font-weight="bold" fill="#111">XYZ Construction Ltd.</text>
+  <text x="40" y="136" font-family="monospace, Courier, sans-serif" font-size="10" fill="#555">Project 1 Demolition, Delhi NCR</text>
+
+  <text x="320" y="105" font-family="monospace, Courier, sans-serif" font-size="10" fill="#777">CONSIGNEE / RECEIVER:</text>
+  <text x="320" y="122" font-family="monospace, Courier, sans-serif" font-size="12" font-weight="bold" fill="#111">Somya Infrastructure Yard #2</text>
+  <text x="320" y="136" font-family="monospace, Courier, sans-serif" font-size="10" fill="#555">Plot 4B, Sector 62, Noida</text>
+
+  <!-- Vehicle & Material Info -->
+  <rect x="40" y="152" width="520" height="42" fill="#f8f9f6" rx="4" stroke="#e0e2db"/>
+  <text x="52" y="170" font-family="monospace, Courier, sans-serif" font-size="10" fill="#666">VEHICLE NO: <tspan font-weight="bold" fill="#111">DL-1AA-4892 (Tipper 16W)</tspan></text>
+  <text x="52" y="185" font-family="monospace, Courier, sans-serif" font-size="10" fill="#666">ORDER REF: <tspan font-weight="bold" fill="#111">BK-4 / LOAD-1002</tspan></text>
+
+  <text x="320" y="170" font-family="monospace, Courier, sans-serif" font-size="10" fill="#666">MATERIAL: <tspan font-weight="bold" fill="#111">Concrete (Grade A Reusable)</tspan></text>
+  <text x="320" y="185" font-family="monospace, Courier, sans-serif" font-size="10" fill="#666">PASSPORT: <tspan font-weight="bold" fill="#111">MP-1002</tspan></text>
+
+  <!-- Weight Measurements Table -->
+  <rect x="40" y="208" width="520" height="120" fill="#fff" rx="4" stroke="#164e2e" stroke-width="1.5"/>
+  <rect x="40" y="208" width="520" height="28" fill="#164e2e"/>
+  
+  <text x="60" y="226" font-family="monospace, Courier, sans-serif" font-size="11" font-weight="bold" fill="#fff">MEASUREMENT PARAMETER</text>
+  <text x="320" y="226" font-family="monospace, Courier, sans-serif" font-size="11" font-weight="bold" fill="#fff">TIMESTAMP</text>
+  <text x="530" y="226" text-anchor="end" font-family="monospace, Courier, sans-serif" font-size="11" font-weight="bold" fill="#fff">WEIGHT (TONNES)</text>
+
+  <!-- Row 1: Gross -->
+  <text x="60" y="254" font-family="monospace, Courier, sans-serif" font-size="12" fill="#333">GROSS WEIGHT (LOADED TRUCK)</text>
+  <text x="320" y="254" font-family="monospace, Courier, sans-serif" font-size="11" fill="#666">26-10-2026 10:04:12</text>
+  <text x="530" y="254" text-anchor="end" font-family="monospace, Courier, sans-serif" font-size="13" font-weight="bold" fill="#111">24.50 t</text>
+  <line x1="40" y1="264" x2="560" y2="264" stroke="#eee"/>
+
+  <!-- Row 2: Tare -->
+  <text x="60" y="284" font-family="monospace, Courier, sans-serif" font-size="12" fill="#333">TARE WEIGHT (EMPTY TRUCK)</text>
+  <text x="320" y="284" font-family="monospace, Courier, sans-serif" font-size="11" fill="#666">26-10-2026 10:08:35</text>
+  <text x="530" y="284" text-anchor="end" font-family="monospace, Courier, sans-serif" font-size="13" font-weight="bold" fill="#111">14.50 t</text>
+  <line x1="40" y1="294" x2="560" y2="294" stroke="#164e2e" stroke-width="1.5"/>
+
+  <!-- Row 3: Net (Highlighted) -->
+  <rect x="41" y="295" width="518" height="32" fill="#edf7ed"/>
+  <text x="60" y="316" font-family="monospace, Courier, sans-serif" font-size="13" font-weight="bold" fill="#164e2e">NET DELIVERED QUANTITY</text>
+  <text x="320" y="316" font-family="monospace, Courier, sans-serif" font-size="11" font-weight="bold" fill="#164e2e">VARIANCE: 0.00 t (0.0%)</text>
+  <text x="530" y="317" text-anchor="end" font-family="monospace, Courier, sans-serif" font-size="17" font-weight="bold" fill="#164e2e">10.00 t</text>
+
+  <!-- Footer / Stamp & Signatures -->
+  <g transform="translate(420, 345)">
+    <!-- Certified Stamp Circle -->
+    <circle cx="55" cy="40" r="34" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <circle cx="55" cy="40" r="30" fill="none" stroke="#2563eb" stroke-width="1"/>
+    <text x="55" y="32" text-anchor="middle" font-family="sans-serif" font-size="7" font-weight="bold" fill="#2563eb" letter-spacing="0.5">CERTIFIED</text>
+    <text x="55" y="42" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="bold" fill="#2563eb">VERIFIED</text>
+    <text x="55" y="52" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#2563eb">WEIGHBRIDGE #1</text>
+  </g>
+
+  <!-- Barcode -->
+  <g transform="translate(40, 350)">
+    <rect x="0" y="0" width="2" height="35" fill="#111"/>
+    <rect x="4" y="0" width="1" height="35" fill="#111"/>
+    <rect x="7" y="0" width="3" height="35" fill="#111"/>
+    <rect x="13" y="0" width="1" height="35" fill="#111"/>
+    <rect x="16" y="0" width="4" height="35" fill="#111"/>
+    <rect x="23" y="0" width="1" height="35" fill="#111"/>
+    <rect x="27" y="0" width="2" height="35" fill="#111"/>
+    <rect x="31" y="0" width="3" height="35" fill="#111"/>
+    <rect x="37" y="0" width="1" height="35" fill="#111"/>
+    <rect x="41" y="0" width="2" height="35" fill="#111"/>
+    <rect x="46" y="0" width="4" height="35" fill="#111"/>
+    <rect x="53" y="0" width="2" height="35" fill="#111"/>
+    <rect x="58" y="0" width="1" height="35" fill="#111"/>
+    <rect x="62" y="0" width="3" height="35" fill="#111"/>
+    <rect x="68" y="0" width="2" height="35" fill="#111"/>
+    <rect x="73" y="0" width="1" height="35" fill="#111"/>
+    <rect x="77" y="0" width="4" height="35" fill="#111"/>
+    <rect x="84" y="0" width="2" height="35" fill="#111"/>
+    <rect x="89" y="0" width="3" height="35" fill="#111"/>
+    <rect x="95" y="0" width="1" height="35" fill="#111"/>
+    <rect x="99" y="0" width="2" height="35" fill="#111"/>
+    <rect x="104" y="0" width="4" height="35" fill="#111"/>
+    <rect x="111" y="0" width="2" height="35" fill="#111"/>
+    <rect x="116" y="0" width="3" height="35" fill="#111"/>
+    <rect x="122" y="0" width="2" height="35" fill="#111"/>
+    <text x="60" y="47" text-anchor="middle" font-family="monospace, Courier, sans-serif" font-size="9" fill="#555">*WB-2026-1002-GL*</text>
+  </g>
+
+  <text x="210" y="370" font-family="sans-serif" font-size="10" fill="#666">Weighbridge Operator: <tspan font-weight="bold" fill="#222">Ramesh Kumar</tspan></text>
+  <text x="210" y="385" font-family="sans-serif" font-size="9" fill="#888">Intake certified under GreenLoop Trust &amp; Verification Protocol v2.4</text>
+</svg>
